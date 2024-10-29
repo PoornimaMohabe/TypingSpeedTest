@@ -1,0 +1,188 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://w0.peakpx.com/wallpaper/243/860/HD-wallpaper-keyboard-backlight-red-glare-bokeh.jpg);
+}
+
+
+.app-container {
+  background-color: #f9ebe0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+
+.app-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #202123;
+  margin-bottom: 1.5rem;
+}
+
+
+.sentence-display {
+  font-size: 1.2rem;
+  color: #282929;
+  padding: 1rem;
+  background-color: #e7eefe;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+
+.typing-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #111827;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.typing-input:focus {
+  border-color: #9e9fe8;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+
+.wpm-display {
+  font-size: 1.1rem;
+  color: #8388ed;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+
+.congrats-message {
+  font-size: 1rem;
+  color: #10b981;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+
+.reset-button {
+  background-color: #6366f1;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.reset-button:hover {
+  background-color: #4f46e5;
+}
+
+
+.error-highlight {
+  color: #ef4444;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+.sentence-display {
+  padding: 1rem;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  color: #374151;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.sentence-display p {
+  font-weight: bold;
+  color: #4b5563;
+  margin: 0 0 0.5rem;
+}
+
+.sentence-display blockquote {
+  font-style: italic;
+  margin: 0;
+}
+
+
+.typing-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #111827;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.typing-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+
+.wpm-display {
+  font-size: 1.1rem;
+  color: #1b20b2;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.wpm-score, .best-wpm-score {
+  color: #5228fa;
+}
+
+.congrats-message {
+  font-size: 1rem;
+  color: #10b981;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.reset-button {
+  padding: 0.5rem 1rem;
+  background-color: #207535;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.reset-button:hover {
+  background-color: #3faa68;
+}
+
+
+
+.error-highlight {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.correct {
+  color: #10b981; 
+}
+
+.incorrect {
+  color: #ef4444; 
+  text-decoration: underline;
+}
